@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.img {
+    height: 11rem;
+    width: auto;
+}
+
+.text {
+    font-size: 0.7rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.titre {
+    color: orange;
+}
