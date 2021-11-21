@@ -1,13 +1,6 @@
-body {
-    background-color: black;
-    color: white;
+.h1 {
+    color: orangered;
 }
-
-.img {
-    height: 11rem;
-    width: auto;
-}
-
 
 .text {
     font-size: 0.7rem;
@@ -18,42 +11,18 @@ body {
     -webkit-box-orient: vertical;
 }
 
-.titre {
-    color: orange;
+body {
+    background-color: black;
+    color: white;
+
+
 }
 
-.entete {
-    background-color: rgba(209, 104, 5, 0.75);
-    color: black;
+.title {
+    color: orangered;
 }
 
-
-.score {
-    display: block;
-    font-size: 16px;
-    position: relative;
-    overflow: hidden;
-}
-
-.score-wrap {
-    display: inline-block;
-    position: relative;
-    overflow: hidden;
-    height: 19px;
-}
-
-.score .stars-active {
-    color: #EEBD01;
-    position: relative;
-    z-index: 10;
-    display: inline-block;
-}
-
-.score .stars-inactive {
-    color: grey;
-    position: absolute;
-    top: 0;
-    left: 0;
-    -webkit-text-stroke: initial;
-    overflow: hidden;
+.card {
+    background-color: black;
+    color: white;
 }
